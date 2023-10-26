@@ -1,11 +1,11 @@
 [
 {
   "modid": "railcraft_cemblem",
-  "name": "Railcraft Custom Emblems Addon",
+  "name": "Railcraft Custom Emblems Addon Ctyrk4 Edition",
   "description": "This mod adds custom emblems to the mod Railcraft, by CovertJaguar.",
   "version": "0.1.1",
   "mcversion": "1.7.10",
-  "authorList": ["HajdaM"],
+  "authorList": ["HajdaM", "Petsox"],
   "logoFile": "assets/railcraft_cemblems/logo.png",
   "RequiredMods": ["Railcraft"]
 }
