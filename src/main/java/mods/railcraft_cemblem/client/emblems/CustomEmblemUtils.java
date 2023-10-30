@@ -1,5 +1,7 @@
 package mods.railcraft_cemblem.client.emblems;
 
+import jdk.jfr.StackTrace;
+
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;

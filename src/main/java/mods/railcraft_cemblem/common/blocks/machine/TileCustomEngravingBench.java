@@ -37,7 +37,7 @@ public class TileCustomEngravingBench extends TileMachineItem implements IEnergy
     public static enum GuiPacketType {
         START_CRAFTING, NORMAL_RETURN, OPEN
     };
-    private final static int PROCESS_TIME = 100;
+    private final static int PROCESS_TIME = 10;
     private final static int ACTIVATION_POWER = 50;
     private final static int MAX_RECEIVE = 1000;
     private final static int MAX_ENERGY = ACTIVATION_POWER * (PROCESS_TIME + (PROCESS_TIME / 2));
