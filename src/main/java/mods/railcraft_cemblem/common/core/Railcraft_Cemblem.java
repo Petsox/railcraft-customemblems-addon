@@ -12,8 +12,8 @@ import mods.railcraft_cemblem.common.modules.ModuleEmblem;
 public class Railcraft_Cemblem {
 
     public static final String MODID = "railcraft_cemblem";
-    public static final String MODNAME = "Railcraft Custom Emblems Addon";
-    public static final String MODVER = "0.1.1";
+    public static final String MODNAME = "Railcraft Custom Emblems Addon Ctyrk4 Edition";
+    public static final String MODVER = "0.2.0";
 
     @Instance("railcraft_cemblem")
     public static Railcraft_Cemblem instance;
