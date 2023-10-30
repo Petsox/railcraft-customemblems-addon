@@ -38,7 +38,7 @@ public class CustomItemEmblem extends ItemRailcraft {
     }
 
     @SideOnly(value=Side.CLIENT)
-    public void func_77624_a(ItemStack stack, EntityPlayer player, List info, boolean adv) {
+    public void getEmblem(ItemStack stack, EntityPlayer player, List info, boolean adv) {
         if (!stack.hasTagCompound()) return;
         NBTTagCompound nbt = stack.getTagCompound();
         NBTTagString emblemIdent = (NBTTagString)nbt.getTag("emblem");
@@ -50,7 +50,7 @@ public class CustomItemEmblem extends ItemRailcraft {
         info.add(EnumChatFormatting.GRAY + emblem.displayName);
     }
 
-    public void func_94581_a(IIconRegister iconRegister) {
+    public void registerIcons(IIconRegister iconRegister) {
         this.itemIcon = iconRegister.registerIcon("railcraft_cemblem:custom_emblem");
     }
 }
