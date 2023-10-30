@@ -21,7 +21,7 @@ public class CustomEmblemBankWidget extends Widget {
     public CustomEmblemBankWidget(final int x, final int y, final String currentEmblem) {
         super(x, y, 182, 12, 126, 18);
         this.slots = new ArrayList<CustomEmblemSlotWidget>(7);
-        this.emblems = (RevolvingList<List<String>>)new RevolvingList();
+        this.emblems = (RevolvingList<List<String>>) new RevolvingList();
         this.currentSelection = "";
         for (int i = 0; i < 7; ++i) {
             this.slots.add((CustomEmblemSlotWidget)new CustomEmblemBankSlotWidget(this, i, x + 1 + i * 18, y + 1, this.u, this.v));

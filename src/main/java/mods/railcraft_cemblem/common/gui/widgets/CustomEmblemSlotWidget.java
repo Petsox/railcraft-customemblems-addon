@@ -28,7 +28,7 @@ public class CustomEmblemSlotWidget extends Widget {
             gui.bindTexture(gui.texture);
         }
         if (this.isMouseOver(mouseX, mouseY)) {
-            gui.func_73733_a(guiX + this.x, guiY + this.y, guiX + this.x + 16, guiY + this.y + 16, -2130706433, -2130706433);
+            gui.drawGradientRect(guiX + this.x, guiY + this.y, guiX + this.x + 16, guiY + this.y + 16, -2130706433, -2130706433);
         }
     }
 

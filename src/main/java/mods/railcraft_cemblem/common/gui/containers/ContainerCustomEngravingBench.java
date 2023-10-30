@@ -92,6 +92,6 @@ public class ContainerCustomEngravingBench extends RailcraftContainer {
 
     @Override
     public boolean canInteractWith(EntityPlayer ep) {
-        return super.func_75145_c(ep);
+        return super.canInteractWith(ep);
     }
 }
